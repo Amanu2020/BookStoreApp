@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Admass Book Store</title>
+        <!-- Bootstrap cdn -->
+        <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script> -->
+
+        <!-- Bootstrap 3 DataTables plugin -->
+        
+        <!--Javascript CDN -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+
+        <!-- Awesome Font -->
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+            integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="./../css/bootstrap.css">
+        <link rel="stylesheet" href="./../css/style.css">
+
+    </head>
+
+    <body>
+        <div class="container-fluid border-top">
+            <div class="row my-3 p-3">
+                <div class="col-sm-12 col-md-3 d-flex justify-content-center border-right">
+                    <div class="d-flex flex-column p-5">
+                        <h3 class="text-success text-center align-self-center title">Admas <span
+                                class="text-dark">BookStore</span></h3>
+                        <p class="text-danger font-italic align-self-center subtitle">the largest online bookstore ever</p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-9 border-top px-3">
+                    <div class="col-sm-12 col-md-12 border-bottom py-4">
+                        <div class="float-right text-dark">
+                            <i id="refresh" class="fa fa-refresh mr-3"></i>
+                            <i class="fa fa-shopping-bag mr-3"></i>
+                            <i class="fa fa-book mr-3"></i>
+                            <i class="fa fa-bookmark mr-3"></i>
+                            <i class="fa fa-print mr-3"></i>
+                            <i class="fa fa-cog mr-3"></i>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 py-3">
+                        <p class="text-secondary m-2">Available Books</p>
+                        <div class="table-responsive px-2 y-scroll">
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">#</th>
+                                        <th scope="col">ISBN</th>
+                                        <th scope="col">Title</th>
+                                        <th scope="col">Author</th>
+                                        <th scope="col">Published</th>
+                                        <th scope="col">Publisher</th>
+                                        <th scope="col">Edition</th>
+                                        <th scope="col">Format</th>
+                                        <th scope="col">Pages</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="books_list"> </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Custom JavaScript -->
+        <script src="./../js/inventory.js"></script>
+        <script>
+            require('./../renderer/inventory_renderer.js')
+        </script>
+    </body>
+
+</html>

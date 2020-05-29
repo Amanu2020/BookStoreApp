@@ -1,0 +1,147 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+}
+
+td {
+    font-size: 14px;
+}
+
+.y-scroll {
+    overflow-y: scroll;
+    scrollbar-width: thin;          /* "auto" or "thin"  */
+    scrollbar-color: #f8f8fa #fdfdfd;
+    height: 640px;
+}
+
+label {
+    font-size: 12px;
+    color: #000000e7;
+}
+
+input[type=text] {
+    padding: 8px 2px 8px 3px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+input[type=number] {
+    padding: 8px 2px 8px 3px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+input[type=date] {
+    padding: 8px 2px 8px 3px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+input[type=password] {
+    padding: 8px 2px 8px 3px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+input[type=phone] {
+    padding: 8px 2px 8px 3px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+input[type=radio] {
+    font-size: 14px;
+}
+
+input[type=button] {
+    background-color: #45a049;
+    border-radius: 4px;
+    border: none;
+    color: #fff;
+    padding: 6px 32px;
+    margin: 4px 0px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+input[type=submit] {
+    background-color: #fff;
+    border-radius: 4px;
+    color: #000;
+    padding: 6px 32px;
+    margin: 5px 0px;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.title {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 34px;
+}
+
+.subtitle {
+    font-family: 'Cutive Mono', monospace;
+    /* font-family: 'Dancing Script', cursive; */
+    font-size: 16px;
+}
+
+h1 {
+    margin: 25px 0px 20px 0px;
+    text-align: center;
+    color: #144fcc;
+}
+
+h2 {
+    margin: 25px 0px 25px 0px;
+    color: #cdd;
+}
+
+h4 {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    font-size: 18px;
+    color: #dcc;
+}
+
+p {
+    margin: 25px 0px;
+    font-size: 16px;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    #title {
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+        font-size: 30px;
+    }
+
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {}

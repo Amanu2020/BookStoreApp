@@ -1,0 +1,35 @@
+{
+  "name": "bookstore",
+  "version": "1.0.0",
+  "description": "Book Store Electron App",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon server/server.js",
+    "start": "electron ."
+  },
+  "keywords": [],
+  "homepage": "https://github.com/Amanu2020/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Amanu2020/BookStore"
+  },
+  "author": {
+    "name": "Amanuel Endale",
+    "email": "keab480@gmail.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "datatables.net": "^1.10.20",
+    "datatables.net-dt": "^1.10.20",
+    "electromon": "^1.0.10",
+    "electron": "^8.2.3",
+    "express": "^4.17.1",
+    "mongodb": "^3.5.7",
+    "mongojs": "^3.1.0",
+    "mongoose": "^5.9.11",
+    "mysql": "^2.18.1",
+    "nedb": "^1.8.0",
+    "nodemon": "^2.0.3"
+  }
+}

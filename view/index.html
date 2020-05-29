@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Admass Book Store</title>
+        
+        <!--Javascript CDN -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+        <!-- Awesome Font -->
+        <!-- <link href="./../css/font-awesome.min.css" rel="stylesheet"> -->
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+            integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="./../css/bootstrap.css">
+        <link rel="stylesheet" href="./../css/style.css">
+
+        <!-- Custom JavaScript -->
+        <script src="./../js/script.js"></script>
+    </head>
+
+    <body>
+        <div class="container-fluid border-top">
+            <div class="row my-3">
+                <div class="col-sm-12 col-md-3 border-right">
+                    <div class="col-sm-12 col-md-12 d-flex justify-content-center py-4">
+                        <div class="d-flex flex-column p-5">
+                            <h3 class="text-success text-center align-self-center title">Admas <span
+                                    class="text-dark">BookStore</span></h3>
+                            <p class="text-danger font-italic align-self-center subtitle">the largest online bookstore ever</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 border-top py-5">
+                        <img class="img-fluid text-center" src="./../images/logo.png">
+                    </div>
+                    <div class="col-sm-12 col-md-12">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-9 border-top px-3">
+                    <div class="col-sm-12 col-md-12 border-bottom py-4">
+                        <div class="float-right text-dark">
+                            <i class="fa fa-refresh mr-3 refresh"></i>
+                            <i class="fa fa-shopping-bag mr-3"></i>
+                            <i class="fa fa-book mr-3"></i>
+                            <i class="fa fa-bookmark mr-3"></i>
+                            <i class="fa fa-print mr-3"></i>
+                            <i class="fa fa-cog mr-3"></i>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 py-4">
+                        <div class="col-sm-12 col-md-8 offset-2 my-5">   
+                            <form id="form">
+                                <div class="form-group row">
+                                    <div class="col-sm-8">
+                                        <input type="text" class="form-control" id="testInput" autofocus>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <div class="col-sm-8 my-2">
+                                        <input type="submit" class="form-control btn btn-dark text-white" value="Add">
+                                    </div>
+                                </div>
+                            </form>
+                            <ul class="text-danger"></ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 py-4">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Renderer -->
+        <script>require('./renderers/renderer.js')</script>
+    </body>
+
+</html>
