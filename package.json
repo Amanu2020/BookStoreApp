@@ -23,7 +23,7 @@
     "datatables.net": "^1.10.20",
     "datatables.net-dt": "^1.10.20",
     "electromon": "^1.0.10",
-    "electron": "^8.2.3",
+    "electron": "^8.5.1",
     "express": "^4.17.1",
     "mongodb": "^3.5.7",
     "mongojs": "^3.1.0",
