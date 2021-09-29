@@ -20,7 +20,7 @@
   },
   "license": "ISC",
   "dependencies": {
-    "datatables.net": "^1.10.20",
+    "datatables.net": "^1.11.3",
     "datatables.net-dt": "^1.10.20",
     "electromon": "^1.0.10",
     "electron": "^8.2.3",
